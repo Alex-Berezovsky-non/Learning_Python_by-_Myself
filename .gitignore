@@ -1,0 +1,58 @@
+# Виртуальные окружения и среда
+venv/
+env/
+*.env
+.venv/
+virtualenv/
+.env.bak
+venv.bak/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+.python-version
+
+# Логи и результаты тестов
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Файлы сборки и дистрибуции
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Конфигурационные файлы (примеры)
+.env
+.env.local
+.env.*.local
+
+# Локальные настройки
+settings.local.py
+
+# Файлы зависимостей
+pip-selfcheck.json
+
+# MyPy
+.mypy_cache/
