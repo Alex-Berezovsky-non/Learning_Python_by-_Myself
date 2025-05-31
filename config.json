@@ -1,0 +1,8 @@
+{
+  "debug_mode": true,
+  "max_connections": 10,
+  "database": {
+    "host": "localhost",
+    "port": 5432
+  }
+}
